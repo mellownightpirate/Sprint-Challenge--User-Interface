@@ -4,7 +4,7 @@
 <head>
   <meta charset="utf-8">
 
-  <title>Sprint Challenge - About</title>
+  <title>Sprint Challenge - Contact</title>
 
   <link href="https://fonts.googleapis.com/css?family=Roboto|Rubik" rel="stylesheet">
   <link rel="stylesheet" href="css/index.css">
@@ -12,7 +12,7 @@
 </head>
 
 <body>
-    <div class="container">
+    <div class="contact-container">
       <div class="header-logo">
         <img src="img/lambda-black.png" alt="lambda-logo">
         <nav class="nav-bar">
@@ -29,63 +29,37 @@
       <br>
       <br>
 
-    <section class="about-section">
-      <h3>About</h3>
+    <section class="contact-section">
+      <h3>Contact</h3>
         <p>Leverage agile frameworks to provide a robust synopsis for high level overviews. Iterative approaches to corporate strategy foster collaborative thinking to further the overall value proposition. Organically grow the holistic world view of disruptive innovation via workplace diversity and empowerment.</p>
     </section>
 
       <br>
       <br>
 
-    <section class="content-top-about">
-      <div class="text-container-about">
-        <img src="img/about-plan.png" alt="strategy">
-
-      <br>
-      <br>
-    
-      <h3>Strategy</h3>
-        <p>Iterative approaches to corporate strategy foster collaborative thinking to further the overall value proposition.</p>
-        <button>Learn More</button>
-      </div>
-
-    <div class="text-container-about">
-        <img src="img/about-working.png" alt="strategy">
-      
-      <br>
-      <br>
-
-      <h3>How We Work</h3>
-      <p>Iterative approaches to corporate strategy foster collaborative thinking to further the overall value proposition.</p>
-      <button>Learn More</button>
-
-    </div>
-
-  </section>
-
-  <section class="content-top-about">
-    <div class="text-container-about">
-      <img src="img/about-office.png" alt="strategy">
-
-      <br>
-      <br>
-    
-    <h3>Places We Work</h3>
-      <p>Iterative approaches to corporate strategy foster collaborative thinking to further the overall value proposition.</p>
-      <button>Learn More</button>
-    </div>
-
-    <div class="text-container-about">
-        <img src="img/about-meeting.png" alt="strategy">
-
-      <br>
-      <br>
-
-    <h3>Collaboration</h3>
-      <p>Iterative approaches to corporate strategy foster collaborative thinking to further the overall value proposition.</p>
-      <button>Learn More</button>
-    </div>  
-  </section>
+      <div class="form-container">
+            <form action="action_page.php">
+          
+              <label for="fname">First Name</label>
+              <input type="text" id="fname" name="firstname" placeholder="Your name..">
+          
+              <label for="lname">Last Name</label>
+              <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+          
+              <label for="country">Country</label>
+              <select id="country" name="country">
+                <option value="uk">UK</option>
+                <option value="canada">Canada</option>
+                <option value="usa">USA</option>
+              </select>
+          
+              <label for="subject">Subject</label>
+              <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+          
+              <input type="submit" value="Submit">
+          
+            </form>
+          </div>
 
       <br>
       <br>
